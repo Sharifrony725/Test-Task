@@ -15,7 +15,7 @@ const LeftContent = () => {
         {/* search */}
         <div className="border-2 border-[#F0F2F4]  rounded-2xl justify-between flex items-center p-2 my-4">
           <input type="text" placeholder="Search by Fruits Name" />
-          <img src={search} className="bg-pink-100 rounded p-2" />
+          <img src={search} className="bg-pink-100 rounded p-2 w-6 mr-2"/>
         </div>
         <div>
           <h2 className="font-medium">Fruits List</h2>
@@ -43,14 +43,35 @@ const LeftContent = () => {
           <div className="flex gap-4 mt-3 p-2">
             <img src={fruit3} />
             <div>
-              <h2 className="font-medium">Avocado</h2>
+              <h2 className="font-medium">Strawberries</h2>
+              <p>Vitamin C</p>
+            </div>
+          </div>
+          <div className="flex gap-4 mt-3 p-2">
+            <img src={fruit3} />
+            <div>
+              <h2 className="font-medium">Mangoes</h2>
+              <p>Vitamin A,C</p>
+            </div>
+          </div>
+          <div className="flex gap-4 mt-3 p-2">
+            <img src={fruit3} />
+            <div>
+              <h2 className="font-medium">Blueberries</h2>
+              <p>Vitamin C,K</p>
+            </div>
+          </div>
+          <div className="flex gap-4 mt-3 p-2">
+            <img src={fruit3} />
+            <div>
+              <h2 className="font-medium">Grapes</h2>
               <p>Vitamin B6</p>
             </div>
           </div>
           <div className="flex gap-4 mt-3 p-2">
             <img src={fruit3} />
             <div>
-              <h2 className="font-medium">Avocado</h2>
+              <h2 className="font-medium">Pineapples</h2>
               <p>Vitamin B6</p>
             </div>
           </div>

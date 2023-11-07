@@ -10,7 +10,7 @@ const Home = () => {
     return (
       <div className="flex h-screen">
         {/* Left Sidebar */}
-        <div className="mt-20 hidden lg:block">
+        <div className="mt-80 hidden lg:block">
           <div className="flex flex-col-reverse gap-10 ml-7 mt-20">
             <div className="rounded border[#1010101A] border-2 bg-[#1010101A] p-2">
               <img src={dashboard} />
