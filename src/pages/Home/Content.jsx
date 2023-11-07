@@ -1,5 +1,6 @@
 import LeftContent from "./LeftContent";
 import MiddleContent from "./MiddleContent";
+import RightContent from "./RightContent";
 
 const Content = () => {
     return (
@@ -7,10 +8,12 @@ const Content = () => {
         <div className="w-1/4 hidden lg:block">
             <LeftContent></LeftContent>
         </div>
-        <div className="w-10/12 mx-4">
+        <div className="w-1/2 mx-4">
           <MiddleContent></MiddleContent>
         </div>
-        <div className="w-1/4">2</div>
+        <div className="w-1/4">
+          <RightContent></RightContent>
+        </div>
       </div>
     );
 };
