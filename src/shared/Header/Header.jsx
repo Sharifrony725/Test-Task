@@ -1,12 +1,13 @@
 import logo from '../../assets/food-network 1.svg'
 import search from '../../assets/search.png'
 const Header = () => {
+ 
     return (
       <section>
         <div className="navbar bg-base-100">
           <div className="navbar-start">
-            <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            {/* <div className="dropdown">
+              {/* <label tabIndex={0} className="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -21,7 +22,7 @@ const Header = () => {
                     d="M4 6h16M4 12h8m-8 6h16"
                   />
                 </svg>
-              </label>
+              </label> 
               <ul
                 tabIndex={0}
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
@@ -44,7 +45,8 @@ const Header = () => {
                   <a>Item 3</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
+
             <a className="btn btn-ghost normal-case text-xl">
               <img src={logo} alt="" />
             </a>
@@ -56,8 +58,12 @@ const Header = () => {
             </div>
           </div>
           <div className="navbar-end space-x-6">
+            <div className="lg:hidden bock">
+              <img src={search} className="bg-pink-100 rounded p-2" />
+            </div>
+            
             <svg
-              className="rounded  border-[#E655271A] border-2 bg-[#E6551A1A] w-8 h-8"
+              className="rounded hidden lg:block  border-[#E655271A] border-2 bg-[#E6551A1A] w-8 h-8"
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
@@ -85,7 +91,7 @@ const Header = () => {
               height="22"
               viewBox="0 0 22 22"
               fill="none"
-              className="rounded border-[#E655271A] border-2 bg-[#E6551A1A] w-8 h-8"
+              className="rounded hidden lg:block  border-[#E655271A] border-2 bg-[#E6551A1A] w-8 h-8"
             >
               <path
                 d="M9.62498 3.95831V14.375C9.62498 15.0744 9.62498 15.4241 9.50068 15.6962C9.36336 15.9971 9.12205 16.2384 8.82117 16.3757C8.54909 16.5 8.19939 16.5 7.49998 16.5C5.63489 16.5 4.70234 16.5 3.97679 16.1686C3.17445 15.8022 2.53108 15.1588 2.16466 14.3565C1.83331 13.6309 1.83331 12.6984 1.83331 10.8333V7.49998C1.83331 5.63489 1.83331 4.70234 2.16466 3.97679C2.53108 3.17445 3.17445 2.53108 3.97679 2.16466C4.70234 1.83331 5.63489 1.83331 7.49998 1.83331C8.19939 1.83331 8.54909 1.83331 8.82117 1.95757C9.12205 2.09498 9.36336 2.33624 9.50068 2.63712C9.62498 2.9092 9.62498 3.2589 9.62498 3.95831Z"
@@ -136,6 +142,7 @@ const Header = () => {
               height="20"
               viewBox="0 0 20 20"
               fill="none"
+              tabIndex={0}
               className="rounded border[#1010101A] border-2 bg-[#1010101A] w-8 h-8"
             >
               <path
@@ -160,6 +167,9 @@ const Header = () => {
                 stroke-linejoin="round"
               />
             </svg>
+            
+            
+
           </div>
         </div>
       </section>

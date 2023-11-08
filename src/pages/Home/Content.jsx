@@ -1,3 +1,4 @@
+import Dropdoun from "./Dropdoun";
 import LeftContent from "./LeftContent";
 import MiddleContent from "./MiddleContent";
 import RightContent from "./RightContent";
@@ -8,7 +9,8 @@ const Content = () => {
         <div className="w-1/4 hidden lg:block">
           <LeftContent></LeftContent>
         </div>
-        <div className="w-1/2 mx-4">
+   
+        <div className="lg:w-1/2 lg:mx-4 mx-0 w-full">
           <MiddleContent></MiddleContent>
         </div>
         <div className="w-1/4 hidden lg:block">
