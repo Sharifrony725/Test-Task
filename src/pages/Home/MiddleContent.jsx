@@ -23,12 +23,12 @@ const MiddleContent = () => {
               <img src={name} />
             </div>
 
-            <div className="flex-1 lg:ml-5 lg:max-w-screen-lg w-full h-auto lg:max-h-screen">
+            <div className="flex-1 lg:ml-5  w-full h-auto">
               <h2 className="text-2xl lg:text-4xl font-extrabold">
                 Health benefits of an avocado
               </h2>
               <h3 className="lg:my-2  mt-6 text-xl font-bold">
-                Supports eye health:{" "}
+                Supports eye health:
               </h3>
               <p className="">
                 Spinach contains high levels of vitamin A and other antioxidants
@@ -45,7 +45,7 @@ const MiddleContent = () => {
           <div>
             <div className="mt-10 ml-0 lg:ml-10">
               <h2 className="lg:text-xl text-sm font-bold  mb-2 lg:mb-4">
-                Supports eye health:{" "}
+                Supports eye health:
               </h2>
               <p className="text-justify">
                 Spinach contains high levels of vitamin A and other antioxidants
@@ -76,7 +76,7 @@ const MiddleContent = () => {
             </div>
             <div className="flex-1 mt-4">
               <h2 className="font-bold text-sm lg:text-xl">
-                Supports eye health:{" "}
+                Supports eye health:
               </h2>
               <p className="text-justify">
                 Spinach contains high levels of vitamin A and other antioxidants
@@ -122,7 +122,7 @@ const MiddleContent = () => {
             </div>
           </div>
 
-          <div className="flex gap-5 mt-6 lg:hidden">
+          <div className="flex mt-6 gap-4 lg:hidden">
             <img src={facebook} />
             <img src={linkedin} />
             <img src={twitter} />

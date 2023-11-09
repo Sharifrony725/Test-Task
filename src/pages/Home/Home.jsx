@@ -16,7 +16,7 @@ const Home = () => {
             <Header></Header>
           </nav>
           {/* Page Content */}
-          <div className="bg-[#EEF0F2] p-4 rounded-2xl rounded-b-none ml-0	 lg:ml-7 mt-7">
+          <div className="bg-[#EEF0F2] p-4 rounded-2xl rounded-b-none  lg:ml-7 mt-7">
             <Content></Content>
           </div>
         </div>
